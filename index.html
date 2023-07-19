@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>CALCULATOR</h1>
+        </nav>
+    </header>
+    <main id="cal">
+        <div class="cal_head">
+           <input type="number" name="display" placeholder="calculate" >
+           <p id="result" style="font-size: xx-large;"></p> 
+           
+        </div>
+        <div class="cal_body">
+         
+          <button class="values" onclick="valueEntered('0')">0</button>
+          <button class="values" onclick="valueEntered('1')">1</button>
+          <button class="values" onclick="valueEntered('2')">2</button>
+          <button class="values" onclick="valueEntered('3')">3</button>
+          <button class="values" onclick="valueEntered('4')">4</button>
+          <button class="values" onclick="valueEntered('5')">5</button>
+          <button class="values" onclick="valueEntered('6')">6</button>
+          <button class="values" onclick="valueEntered('7')">7</button>
+          <button class="values" onclick="valueEntered('8')">8</button>
+          <button class="values" onclick="valueEntered('9')">9</button>
+          <button class="values" style="visibility: hidden;"></button>
+          <button type="button" class="values" onclick="window.location.reload();">AC</button>
+          <button class="values" onclick="operations('12')">+</button>
+          <button class="values" onclick="operations('13')">-</button>
+          <button class="values" onclick="operations('14')">*</button>
+          <button class="values" onclick="operations('15')">/</button>
+          <button class="values" onclick="operations('16')">^</button>
+          <button class="values" onclick="operations('17')">=</button>
+        </div>
+    </main>
+    <footer>
+        <p>&COPY;apsar</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

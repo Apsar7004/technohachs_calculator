@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;  
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    padding:15px;
+    border: 1px solid black;
+    background-color: #FFA351;
+    width: 100%;
+}
+
+
+nav,#cal{
+    padding-top: 20px 0px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#cal{
+    border: 1px solid;
+    border-radius: 5%;
+    margin: 30px 20px ;
+    background-color: #FFA351;
+    width: 270px;
+    
+}
+
+input{
+    width: 230px;
+}
+
+button{
+    font-weight:bolder;
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: auto;
+    margin: auto;
+    width: 45px;
+    height: 45px;
+}
+
+.cal_head{
+margin-top: 20px;
+}
+
+.cal_body{
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    height: auto;
+    width: 230px;
+    
+    
+}
+footer{
+    background-color:#FFA351;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    font-weight:bolder;
+    
+}
+
+
